@@ -137,7 +137,7 @@ function wpr_list_categories_walk( $parent = 0, $depth = 0, $args ) {
 	return $wpr_taxonomy_list;
 
 }
-// This function builds the HTML for a category and it's subcategories ( a column )
+// This function builds the HTML for a category and its subcategories ( a column )
 function wpr_build_html_listing( $content, $depth = 0 ) {
 	$html = '';
 	if ( 0 === $depth ) {
